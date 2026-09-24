@@ -6,9 +6,7 @@ public class BinarySearch {
         int hi=arr.length-1; // Higher index
         boolean found = false; // Flag to indicate if the element is found
         
-        while(li<=hi){
-
-            
+        while(li<=hi){  
         int mid = (li+hi)/2; // Calculate the middle index
         if(arr[mid] == elementToSearch){
             System.out.println("Element found at mid index: " + mid);
